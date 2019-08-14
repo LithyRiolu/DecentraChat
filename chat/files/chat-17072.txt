@@ -1,3 +1,0 @@
-{"from":"17072","to":["All"],"message":"Hey!","loadedFileName":"","timestamp":"2019-08-13T16:22:25.125985371+01:00"}
-{"from":"17072","to":["All"],"message":"Hey!","loadedFileName":"","timestamp":"2019-08-13T16:43:36.750901954+01:00"}
-{"from":"17072","to":["All"],"message":"hello world","loadedFileName":"","timestamp":"2019-08-14T04:19:11.492433775+01:00"}
