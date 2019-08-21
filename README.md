@@ -9,6 +9,16 @@
 
 ***
 
+### Dependencies
+
+`Go 1.12.9*`
+
+`go get -u github.com/gorilla/mux`
+
+*only tested on 1.12.9*
+
+***
+
 ### Usage
 
 #### Running DecentraChat
