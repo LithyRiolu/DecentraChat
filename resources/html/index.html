@@ -105,20 +105,21 @@
                     <table class="table table-striped">
                         <thead class="thead-dark">
                         <tr>
+                            <th><b>Channel</b></th>
                             <th><b>Message</b></th>
-                            <th><b>File</b></th>
-                            <th><b>From</b></th>
                             <th><b>To</b></th>
+                            <th><b>Attachment</b></th>
                             <!--<div class="col alert alert-primary" role="alert">Timestamp</div>-->
                         </tr>
                         </thead>
                         <tbody>
                         {{range .ChatsShow.ChatsShowList}}
                             <tr>
-                                <td class="full-width">{{.Message}}</td>
-                                <td>{{.LoadedFileName}}</td>
                                 <td>{{.From}}</td>
+                                <td class="full-width">{{.Message}}</td>
                                 <td>{{.To}}</td>
+                                <td>{{.LoadedFileName}}</td>
+
                             </tr>
                         {{end}}
                         </tbody>
