@@ -1,33 +1,33 @@
 {
 	"CHANNELS" : [
 	{
-	"ChName" :"Development",
-	"port" : "50000",
-	"discription" : "Test channel for developers",
+	"NAME" :"Development",
+	"PORT" : "50000",
+	"DISCRIPTION" : "Test channel for developers",
 
 	},
 	{
-	"name" :"",
-	"port" : "",
-	"discription" : "",
+	"NAME" :"",
+	"PORT" : "",
+	"DISCRIPTION" : "",
 
 	},
 	{
-	"name" :"",
-	"port" : "",
-	"discription" : "",
+	"NAME" :"",
+	"PORT" : "",
+	"DISCRIPTION" : "",
 
 	},
 	{
-	"name" :"",
-	"port" : "",
-	"discription" : "",
+	"NAME" :"",
+	"PORT" : "",
+	"DISCRIPTION" : "",
 
 	},
 	{
-	"name" :"",
-	"port" : "",
-	"discription" : "",
+	"NAME" :"",
+	"PORT" : "",
+	"DISCRIPTION" : "",
 
 	}
 
