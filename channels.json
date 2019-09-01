@@ -1,7 +1,7 @@
 {
 	"CHANNELS" : [
 	{
-	"name" :"Development",
+	"ChName" :"Development",
 	"port" : "50000",
 	"discription" : "Test channel for developers",
 
