@@ -1,12 +1,11 @@
 {
 	"CHANNELS" : [
 	{
-	"name" :"",
-	"port" : "",
-	"discription" : "",
+	"name" :"Development",
+	"port" : "50000",
+	"discription" : "Test channel for developers",
 
 	},
-	{
 	{
 	"name" :"",
 	"port" : "",
