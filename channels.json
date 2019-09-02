@@ -1,0 +1,35 @@
+{
+	"CHANNELS" : [
+	{
+	"NAME" :"Development",
+	"PORT" : "50000",
+	"DISCRIPTION" : "Test channel for developers",
+
+	},
+	{
+	"NAME" :"",
+	"PORT" : "",
+	"DISCRIPTION" : "",
+
+	},
+	{
+	"NAME" :"",
+	"PORT" : "",
+	"DISCRIPTION" : "",
+
+	},
+	{
+	"NAME" :"",
+	"PORT" : "",
+	"DISCRIPTION" : "",
+
+	},
+	{
+	"NAME" :"",
+	"PORT" : "",
+	"DISCRIPTION" : "",
+
+	}
+
+	]
+}

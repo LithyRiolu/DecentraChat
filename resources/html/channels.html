@@ -38,7 +38,7 @@
 </head>
 
 
-<body id="top">
+<body id="#channels">
 
     <!-- header
     ================================================== -->
@@ -52,8 +52,8 @@
             <ul class="header-nav">
                 <li><a href="index.html#home" title="home">HomePage</a></li>
                 <li><a href="https://github.com/lithyriolu/" title="about">GitHub</a></li>
-                <li class="current"><a href="index.html#works" title="works">DecentraChat</a></li>
-                <li><a href="channels.html#works">Public Channels</a></li>
+                <li><a href="index.html#works" title="works">DecentraChat</a></li>
+                <li class="current"><a href="channels.html#works">Public Channels</a></li>
             </ul>
         </nav>
 
@@ -84,77 +84,18 @@
                     <table>
                         <thead class="page-header__cat">
                         <tr>
-                            <th><a href="#0">Online Peers</a></th>
+                            <th><a>Public Channels you can join</a></th>
                         </tr>
                         </thead>
                     </table>
                     <div align="center">
-                    <select align="center" multiple>
-                        {{range $key, $value := .PeersDS.PeerMap }}
-                            <option value="{{ $key }}">{{ $key }}</option>
-                        {{end}}
-                    </select>
+
                     </div>
                 </article>
             </div>
     
         </div> <!-- end page-header -->
-    <form action="/chat" enctype="multipart/form-data" method="post">
-        <div class="row blog-content narrow">
-            <div class="col-full blog-content__main table-responsive">
-                
-                    <table class="table table-striped">
-                        <thead class="thead-dark">
-                        <tr>
-                            <th><b>Channel</b></th>
-                            <th><b>Message</b></th>
-                            <th><b>To</b></th>
-                            <th><b>Attachment</b></th>
-                            <!--<div class="col alert alert-primary" role="alert">Timestamp</div>-->
-                        </tr>
-                        </thead>
-                        <tbody>
-                        {{range .ChatsShow.ChatsShowList}}
-                            <tr>
-                                <td>{{.From}}</td>
-                                <td class="full-width">{{.Message}}</td>
-                                <td>{{.To}}</td>
-                                <td>{{.LoadedFileName}}</td>
 
-                            </tr>
-                        {{end}}
-                        </tbody>
-                    </table>
-                </div> <!-- show-chat -->
-            
-            
-                <div class="col-full blog-content__main table-responsive"> <!-- input -->
-                    <div>
-
-                        <div>
-                            <div class="form-field">
-                                <textarea name="message" type="text" class="form-control full-width" placeholder="having a good day ?"></textarea>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="file-bar" align="center">
-                                <input type="file" class="form-control-file" name="uploadfile" />
-                            </div>
-                        </div>
-                        
-                        <div>
-                            <div class="submit-bar">
-                                <!--<input type="submit" value="submit" />-->
-                                <button type="submit" value="submit" class="btn btn--primary full-width">Post message</button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- input -->
-            
-            </div><!-- end blog-content__main -->
-        </form>
-    </article>
 
     <!-- footer
     ================================================== -->
@@ -231,3 +172,6 @@
 </body>
 
 </html>
+        <!-- NEW
+        ================================================== -->
+
